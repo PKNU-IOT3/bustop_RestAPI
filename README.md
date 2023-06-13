@@ -6,7 +6,7 @@ App과 MySQL 연결을 위한 RestAPI
  
 ## Localhost가 아닌 게시된 ip주소와 통신하기 위해 다음과 같이 설정
 ### 1. 인바운드 규칙 연결 허용
-#### 방화벽 및 네트워크 보호 - 인바운드 규칙 - port번호 7058 연결 허용 설정
+#### - 방화벽 및 네트워크 보호 - 인바운드 규칙 - (우클릭)새 규칙 - 포트 - TCP/특정 로컬 포트 - 7058 - 연결허용
 ![](https://raw.githubusercontent.com/PKNU-IOT3/bustop_RestAPI/main/images/defender.png) 
 ### 2. RestAPI 게시 및 iis 설정, Android 권한 변경
 #### 1) Visual Studio - RestAPI - 게시
